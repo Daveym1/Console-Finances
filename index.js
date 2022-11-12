@@ -86,3 +86,34 @@ var finances = [
 ['Jan-2017', 138230],
 ['Feb-2017', 671099]
 ];
+
+// Show total months
+
+console.log("Total months: " + finances.length); //DONE
+
+// // Show Total profit/loss
+
+var sum = 0;
+
+for (var i = 0; i < finances.length; i++) {
+  sum += finances[i][1];
+}
+
+console.log("Total: $" + sum); //Done
+
+// Average of the changes in profit/loss
+
+var tot = 0;
+
+for (var i = 0; i < finances.length; i++){
+      
+     for (var j = 0; j < finances[i].length; j++){
+       if (typeof finances[i][j] !== 'string'){
+              console.log(finances[i][j]);
+              
+                
+              }}}
+        
+      function getDifference(a, b) {
+        return Math.abs(a - b);}
+        console.log(getDifference(finances[0][1], finances[1][1]));
