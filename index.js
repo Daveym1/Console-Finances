@@ -101,19 +101,8 @@ for (var i = 0; i < finances.length; i++) {
 
 console.log("Total: $" + sum); //Done
 
-// Average of the changes in profit/loss
+// Average of the changes in profit/loss rounded to two decimal places
 
-var tot = 0;
-
-for (var i = 0; i < finances.length; i++){
-      
-     for (var j = 0; j < finances[i].length; j++){
-       if (typeof finances[i][j] !== 'string'){
-              console.log(finances[i][j]);
-              
-                
-              }}}
+console.log("Average changes: $" + (finances[i-1][1] / finances.length).toFixed(2));
         
-      function getDifference(a, b) {
-        return Math.abs(a - b);}
-        console.log(getDifference(finances[0][1], finances[1][1]));
+      
