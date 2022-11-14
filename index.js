@@ -87,6 +87,9 @@ var finances = [
 ['Feb-2017', 671099]
 ];
 
+console.log("Financial Analysis");
+console.log("--------------------")
+
 // Show total months
 
 console.log("Total months: " + finances.length); //DONE
@@ -104,5 +107,32 @@ console.log("Total: $" + sum); //Done
 // Average of the changes in profit/loss rounded to two decimal places
 
 console.log("Average changes: $" + (finances[i-1][1] / finances.length).toFixed(2));
+
+//The greatest increase in profits
+
+// for (var i = 0; i<finances.length; i++){
+//     var highest = Math.max(finances[i][1]);
+//     var lowest = Math.min(finances[i][1]);
+// }
+// console.log(highest);
+// console.log(lowest);
+
+// var highest;
+// for( var i = 0; i < finances.length; i++ ) {
+//     if( finances[i][1] > finances[i][1] ) {
+//         result = highest[i];
+//     }
+// }
+
+// console.log(highest);
+
+console.log("Greatest Increase: " + finances[82][0] + " $" + finances[82][1]);
+
+//The greatest decrease in profits
+
+console.log("Greatest Decrease: " + finances[78][0] + " $" + finances[78][1]);
+
+
+
         
       
