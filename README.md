@@ -8,7 +8,7 @@ Write code to analyze the financial records of a company. Given an array of data
 
 ## Challenges
 
-This was very challenging for me. We'd learned how to iterate through an array in class but I needed to research how to then work with that to extract certain data from the array and then calculate the needed figures using that data. We had the added complexity of the data being in a multidimensional array. Unfortunately I ran out of time before I could complete the challenge.
+This was very challenging for me. We'd learned how to iterate through an array in class but I needed to research how to then work with that to extract certain data from the array and then calculate the needed figures using that data. We had the added complexity of the data being in a multidimensional array. 
 
 ## What I Learned 
 
@@ -16,4 +16,4 @@ I learned a lot about arrays during this challenge. I discovered there are multi
 
 ## Screenshot
 
-![Alt text](images/Screenshot%202022-11-14%20at%2022.05.49.png)
+![Alt text](images/Screenshot%202022-11-15%20at%2017.42.15.png)
