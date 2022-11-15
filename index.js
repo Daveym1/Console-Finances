@@ -110,9 +110,10 @@ console.log("Average changes: $" + (finances[i-1][1] / finances.length).toFixed(
 
 //The greatest increase in profits
 
-// for (var i = 0; i<finances.length; i++){
-//     var highest = Math.max(finances[i][1]);
-//     var lowest = Math.min(finances[i][1]);
+// for (var i = 1; i<finances.length; i++){
+//   var changes = [finances[i][1] - finances[i-1][1]];
+//     var highest = Math.max(changes);
+//     var lowest = Math.min(changes);
 // }
 // console.log(highest);
 // console.log(lowest);
@@ -126,13 +127,23 @@ console.log("Average changes: $" + (finances[i-1][1] / finances.length).toFixed(
 
 // console.log(highest);
 
-console.log("Greatest Increase: " + finances[82][0] + " $" + finances[82][1]);
+// console.log("Greatest Increase: " + finances[82][0] + " $" + finances[82][1]);
 
-//The greatest decrease in profits
+// //The greatest decrease in profits
 
-console.log("Greatest Decrease: " + finances[78][0] + " $" + finances[78][1]);
+// console.log("Greatest Decrease: " + finances[78][0] + " $" + finances[78][1]);
 
+for (var i =1; i <finances.length -1; i++){
 
+  var changes = [finances[i][1] - finances[i-1][1]];
+  
+  console.table(changes);
+  
+  var max = (Math.max(...changes));
+  
+}
+
+console.log(max);
 
         
       
